@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=deice-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Registration Form</title>
+        <link rel="icon" href="https://cutt.ly/xrD4mwTw">
+        <link rel="stylesheet" href="form.css">
+    </head>
+
+    <body>
+        <h1>REGISTRATION FORM</h1>
+        <p>please fill in the necessary details</p>
+        <form method="post" action="#">
+            <fieldset>
+                <label for="Name"> Enter your name:
+                    <input id="Name" type="text" name="Name" required>    
+                </label>
+                <label for="x-handle">Enter your x handle/Username
+                    <input id="x-handle" name="X-handle" type="text" required>
+                </label> 
+                <label for="Tg-username"> Enter your tg Username
+                    <input type="text" id="Tg-username" name="Tg-username" required>
+                </label>
+                <label for="Discord-username">Enter your Discord username
+                    <input type="text" name="Discord-username" id="Discord-username" required>  
+                </label>
+                <label for="Your-skills">what are your web skills 
+                    <input type="text" name="Your-skills" id="Your-skills" required>
+                </label>
+                <label for="others"> fill anything you have in mind
+                    <input type="text" name="others" id="others">
+                </label>
+            </fieldset>   
+            <fieldset>   
+                <legend>Gender (required)</legend>
+                    <label for="MALE"><input type="radio" id="MALE" name="Gender" class="inline">MALE</label>
+                    <label for="FEMALE"><input type="radio" id="FEMALE" name="Gender" class="inline">FEMALE</label>
+                    <label for="age">Input your age<input type="number" name="age" id="age"></label>
+                    <label for="profile-picture">Input your favorite pfp <input type="file" name="file" id="profile-picture"></label>
+                     <input type="submit" value="Submit" />
+            </fieldset>     
+        </form>
+    </body>
+</html>
